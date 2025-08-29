@@ -3,8 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import LoginView from '@/modules/auth/views/LoginView.vue'
 import RegisterView from '@/modules/auth/views/RegisterView.vue'
 import DashboardView from '@/modules/dashboard/views/DashboardView.vue'
-import SChart from '@/modules/charts/SChart.vue'
-import EChart from '@/modules/charts/EChart.vue'
 import UserView from '@/modules/user/views/UserView.vue'
 
 const router = createRouter({
@@ -36,16 +34,6 @@ const router = createRouter({
       path: '/dashboard',
       name: 'dashboard',
       component: DashboardView,
-    },
-    {
-      path: '/s-chart',
-      name: 's-chart',
-      component: SChart,
-    },
-    {
-      path: '/e-chart',
-      name: 'e-chart',
-      component: EChart,
     },
   ],
 })

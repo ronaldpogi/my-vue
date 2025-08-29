@@ -126,17 +126,16 @@
 <script setup lang="ts" name="dashboard">
 import countup from '@/components/CountUp.vue'
 import { use } from 'echarts/core'
-import { BarChart, LineChart, PieChart, MapChart } from 'echarts/charts'
+import { BarChart, LineChart, PieChart } from 'echarts/charts'
 import {
   GridComponent,
   TooltipComponent,
   LegendComponent,
   TitleComponent,
-  VisualMapComponent,
 } from 'echarts/components'
 import { CanvasRenderer } from 'echarts/renderers'
 import VChart from 'vue-echarts'
-import { dashOpt1, dashOpt2 } from '@/modules/charts/options'
+import { dashOpt1, dashOpt2 } from '@/data/options'
 use([
   CanvasRenderer,
   BarChart,
@@ -146,8 +145,6 @@ use([
   TooltipComponent,
   LegendComponent,
   TitleComponent,
-  VisualMapComponent,
-  MapChart,
 ])
 
 const activities = [
@@ -345,9 +342,5 @@ const ranks = [
 .rank-item-desc {
   font-size: 14px;
   color: #999;
-}
-.map-chart {
-  width: 100%;
-  height: 350px;
 }
 </style>
