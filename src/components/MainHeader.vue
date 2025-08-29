@@ -15,7 +15,7 @@
     </div>
     <div class="header-right">
       <div class="header-user-con">
-        <div class="btn-icon" @click="router.push('/ucenter')">
+        <div class="btn-icon" @click="router.push('/')">
           <el-tooltip
             effect="dark"
             :content="message ? `You have ${message} unread messages.` : `Message center.`"
@@ -66,7 +66,7 @@ import { useRouter } from 'vue-router'
 import imgurl from '../assets/img/logo.png'
 
 const username: string | null = localStorage.getItem('vuems_name')
-const message: number = 2
+const message: number | null = 2
 
 const sidebar = useSidebarStore()
 // Sidebar Collapse
@@ -87,7 +87,7 @@ const handleCommand = (command: string) => {
     localStorage.removeItem('vuems_name')
     router.push('/login')
   } else if (command == 'user') {
-    router.push('/ucenter')
+    router.push('/')
   }
 }
 
