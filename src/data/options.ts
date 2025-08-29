@@ -128,16 +128,16 @@ export const wordOptions = {
       data: [
         { name: 'Vue', value: 10000 },
         { name: 'React', value: 9000 },
-        { name: 'Charts', value: 4000 }, // 图表
-        { name: 'Product', value: 7000 }, // 产品
+        { name: 'Charts', value: 4000 }, // Charts
+        { name: 'Product', value: 7000 }, // Product
         { name: 'vue-manage-system', value: 2000 },
         { name: 'element-plus', value: 6000 },
-        { name: 'Management System', value: 5000 }, // 管理系统
-        { name: 'Frontend', value: 4000 }, // 前端
-        { name: 'Testing', value: 3000 }, // 测试
-        { name: 'Backend', value: 8000 }, // 后端
-        { name: 'Software Development', value: 6000 }, // 软件开发
-        { name: 'Programmer', value: 4000 }, // 程序员
+        { name: 'Management System', value: 5000 }, // Management System
+        { name: 'Frontend', value: 4000 }, // Frontend
+        { name: 'Testing', value: 3000 }, // Testing
+        { name: 'Backend', value: 8000 }, // Backend
+        { name: 'Software Development', value: 6000 }, // Software Development
+        { name: 'Programmer', value: 4000 }, // Programmer
       ],
     },
   ],
@@ -241,11 +241,11 @@ export const dashOpt2 = {
         borderWidth: 2,
       },
       data: [
-        { value: 1048, name: 'Digital' }, // 数码
-        { value: 735, name: 'Food' }, // 食品
-        { value: 580, name: 'Mother & Baby' }, // 母婴
-        { value: 484, name: 'Home Appliances' }, // 家电
-        { value: 300, name: 'Sports' }, // 运动
+        { value: 1048, name: 'Digital' }, // Digital
+        { value: 735, name: 'Food' }, // Food
+        { value: 580, name: 'Mother & Baby' }, // Mother & Baby
+        { value: 484, name: 'Home Appliances' }, // Home Appliances
+        { value: 300, name: 'Sports' }, // Sports
       ],
     },
   ],

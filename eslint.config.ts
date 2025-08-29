@@ -26,6 +26,7 @@ export default defineConfigWithVueTs(
     ...pluginVitest.configs.recommended,
     files: ['src/**/__tests__/*'],
   },
+
   {
     files: ['**/*.{ts,tsx,mts}'],
     languageOptions: {
@@ -39,7 +40,11 @@ export default defineConfigWithVueTs(
         ],
       },
     },
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off', // ✅ disable no-explicit-any
+    },
   },
+
   {
     files: ['**/*.vue'],
     languageOptions: {
@@ -49,6 +54,10 @@ export default defineConfigWithVueTs(
         project: false,
       },
     },
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off', // ✅ also disable inside Vue SFCs
+    },
   },
+
   skipFormatting,
 )

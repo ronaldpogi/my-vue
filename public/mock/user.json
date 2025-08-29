@@ -1,0 +1,23 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "Zhang San",
+      "password": "123",
+      "email": "123@qq.com",
+      "phone": "12345678944",
+      "date": "2024-01-01",
+      "role": "Administrator"
+    },
+    {
+      "id": 2,
+      "name": "Li Si",
+      "password": "123",
+      "email": "1234@qq.com",
+      "phone": "12345678945",
+      "date": "2024-01-01",
+      "role": "Regular User"
+    }
+  ],
+  "pageTotal": 2
+}

@@ -1,0 +1,41 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "Zhang San",
+      "money": 123,
+      "address": "Chang'an Town, Dongguan City, Guangdong Province",
+      "state": true,
+      "date": "2019-11-1",
+      "thumb": "https://lin-xin.gitee.io/images/post/wms.png"
+    },
+    {
+      "id": 2,
+      "name": "Li Si",
+      "money": 456,
+      "address": "Baiyun District, Guangzhou City, Guangdong Province",
+      "state": true,
+      "date": "2019-10-11",
+      "thumb": "https://lin-xin.gitee.io/images/post/node3.png"
+    },
+    {
+      "id": 3,
+      "name": "Wang Wu",
+      "money": 789,
+      "address": "Changsha City, Hunan Province",
+      "state": false,
+      "date": "2019-11-11",
+      "thumb": "https://lin-xin.gitee.io/images/post/parcel.png"
+    },
+    {
+      "id": 4,
+      "name": "Zhao Liu",
+      "money": 1011,
+      "address": "Gulangyu Island, Xiamen City, Fujian Province",
+      "state": true,
+      "date": "2019-10-20",
+      "thumb": "https://lin-xin.gitee.io/images/post/notice.png"
+    }
+  ],
+  "pageTotal": 4
+}
